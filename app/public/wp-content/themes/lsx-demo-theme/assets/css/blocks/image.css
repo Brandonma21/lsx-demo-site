@@ -1,0 +1,24 @@
+/* Separator
+--------------------------------------------- */
+.wp-block-image.aligncenter {
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+.wp-block-image.alignleft {
+	margin-right: 30px !important;
+}
+
+.wp-block-image.alignright {
+	margin-left: 30px !important;
+}
+
+.is-style-inner-border img {
+	outline: 1px solid #fff;
+	outline-offset: -20px;
+}
+
+.is-style-inner-border-dark img {
+	outline: 1px solid #000;
+	outline-offset: -20px;
+}

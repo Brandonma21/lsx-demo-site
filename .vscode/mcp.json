@@ -1,0 +1,17 @@
+{
+  "servers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:/Users/USER-PC/Local Sites/demo-site-block-theme/app/public/wp-content/themes",
+        "C:/Users/USER-PC/Local Sites/demo-site-block-theme/app/public/wp-content/plugins"
+      ]
+    },
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+/* Separator
+--------------------------------------------- */
+.wp-block-separator {
+	border-top: 1px solid
+}
+
+.wp-block-separator,
+.wp-block-separator.has-css-opacity {
+	opacity: 1;
+}
+
+.wp-block-separator.is-style-dots:before {
+	font-family: inherit;
+	font-size: var(--wp--preset--font-size--large);
+	letter-spacing: 10px;
+	padding-left: 10px;
+}
+
+.wp-block-separator.is-style-dashes{ 
+    border-top: 2px dashed !important;
+	background:transparent!important;
+}
+
+.wp-block-separator.is-style-dots-wide{ 
+    border-top: 2px dotted !important;
+	background:transparent!important;
+}
